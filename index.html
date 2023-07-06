@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <i class="fa-brands fa-slack"></i>
+            <small>
+                <h3>BOOKMARK</h3>
+                <!-- <i class="fa-sharp fa-solid fa-bars" style="display: ;"></i> -->
+            </small>
+        </div>
+            <nav>
+                <ul>
+                    <li><a href="#features">FEATURES</a></li>
+                    <li><a href="#download">PRICING</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                    <li><a href="#" id="login">LOGIN</a></li>
+                </ul>
+            </nav>
+      
+    </header>
+    <div id="firstPage">
+        <div id="mainText">
+            <h1>A simple Bookmark Manager</h1>
+            <p>Alias aut eius quasi molestiae illo, enim ratione ad incidunt accusamus, similique sapiente cupiditate autem quos aliquam, est impedit dolores possimus maxime?</p>
+            <div id="buttons">
+                <button id="btnChrome" onclick="getChrome()">Get it on Chrome</button>
+                <button id="btnFirefox" onclick="getFirefox()">Get it on Firefox</button>
+            </div>
+        </div>
+        <div id="form">
+
+        </div>
+            <img src="images/illustration-hero.svg" alt="" id="mainImage">
+        
+    </div>
+    <div id="features">
+        <h2>Features</h2>
+        <p>        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto, aperiam numquam earum asperiores illo facere ex repudiandae ea omnis dolore. </p>
+       
+    </div>
+    <div id="choosing">
+        <nav>
+            <ul>
+                <li onclick="secondPageFunction()" id="btnSimple">Simple Bookmarketing</li>
+                <li onclick="speedFunction()" id="btnSpeed">Speedy Searching</li>
+                <li onclick="shareFunction()" id="btnEasy">Easy Sharing</li>
+            </ul>
+        </nav>
+    </div>
+
+
+
+    <div id="second">
+        <div id="secondPage">
+            <div id="form2">
+            </div>
+            <div id="secondText">
+                <h4>Book Market in one click</h4>
+                <p>Alias aut eius quasi molestiae illo, enim ratione ad incidunt accusamus, similique sapiente cupiditate autem quos aliquam, est impedit dolores possimus maxime?</p>
+                <div id="moreInfo">
+                    <button id="more">More info</button>
+                    
+                </div>
+            </div>
+                <img src="images/illustration-features-tab-1.svg" alt="" id="secondImage">
+            
+            </div>
+       
+    </div>
+
+        <!-- speedy searching -->
+        <div id="speedS">
+            <div id="speedySearch">
+                <div id="form2">
+                </div>
+                <div id="searchText">
+                    <h4>Easy sharing</h4>
+                    <p>Alias aut eius quasi molestiae illo, enim ratione ad incidunt accusamus, similique sapiente cupiditate autem quos aliquam, est impedit dolores possimus maxime?</p>
+                    <div id="moreInfo">
+                        <button id="more">More info</button>
+                        
+                    </div>
+                </div>
+                    <img src="images/illustration-features-tab-2.svg" alt="" id="searchImage">
+                
+                </div>
+        </div>
+            <!-- share oyur bookmarks -->
+
+            <div id="share" onclick="shareFunction()">
+                <div id="shareBook">
+                    <div id="form2">
+                    </div>
+                    <div id="shareText">
+                        <h4>Inteligent search</h4>
+                        <p>Alias aut eius quasi molestiae illo, enim ratione ad incidunt accusamus, similique sapiente cupiditate autem quos aliquam, est impedit dolores possimus maxime?</p>
+                        <div id="moreInfo">
+                            <button id="more">More info</button>
+                            
+                        </div>
+                    </div>
+                        <img src="images/illustration-features-tab-3.svg" alt="" id="shareImage">
+                    
+                    </div>
+            </div>
+
+
+                
+                <div id="download">
+                    <h2>Download</h2>
+                    <p>Lorem ipsum dolor sitearum asperiores illo facere ex repudiandae ea omnis dolore. </p>
+                </div>
+
+
+        <!-- cards -->
+
+        <div id="cards">
+            <div id="card1" class="card">
+                <img src="images/logo-chrome.svg" alt="">
+                <h5>Add to Chrome</h5>
+                <p>Lorem, ipsum dolor.</p>
+                <button>Add & install extention</button>
+            </div>
+            <div id="card2" class="card">
+                <img src="images/logo-firefox.svg" alt="">
+                <h5>Add to Firefox</h5>
+                <p>Lorem, ipsum dolor.</p>
+                <button>Add & install extention</button>
+            </div>
+            <div id="card3" class="card">
+                <img src="images/logo-opera.svg" alt="">
+                <h5>Add to Opera</h5>
+                <p>Lorem, ipsum dolor.</p>
+                <button>Add & install extention</button>
+            </div>
+        </div>
+
+        <div id="freq">
+           <div id="textFreq">
+            <h2>Frequently Asked Questions</h2>
+            <p>Lorem ipsum dolor sit amet consectetur?</p>
+           <div id="quesFreq">
+                
+                <div class="question">
+                    <h5>what is Bookmark?</h5>
+                    <i><i class="fa-solid fa-angle-down"></i></i>
+                </div>
+                <div class="question">
+                    <h5>How can i request a new browser?</h5>
+                    <i><i class="fa-solid fa-angle-down"></i></i>
+                </div>
+                <div class="question">
+                    <h5>Is there a mobile app?</h5>
+                    <i><i class="fa-solid fa-angle-down"></i></i>
+                </div>
+                <div class="question">
+                    <h5>what about other chromium browser?</h5>
+                    <i><i class="fa-solid fa-angle-down"></i></i>
+                </div>
+           </div>
+           <button id="btnFreq">More infos</button>
+        </div>
+
+        
+            <div id="footerBar">
+                <p>35.000+ ALREDY JOINED</p>
+                <h3>Stay-up-to-date with whatr <br> we,re doing</h3>
+                <div id="email">
+                    <input type="email" id="contact" placeholder="example@gmail.com">
+                    <label for="contact" id="submit" onclick="contactVerification()">Contact Us</label>
+                   
+                </div>
+            </div>
+            <footer>
+                <div id="logoFooter">
+                    <i class="fa-brands fa-slack"></i>
+                    <h3>BOOKMARK</h3>
+                    <div id="navFooter">
+                        <p><a href="#features">FEATURES</a></p>
+                        <p><a href="#download">PRACING</a></p>
+                        <p><a href="#contact">contact</a></p>
+                    </div>
+                    
+                </div>
+                <div id="social">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                </div>
+
+            </footer>
+    <script src="script.js"></script>
+</body>
+</html>
